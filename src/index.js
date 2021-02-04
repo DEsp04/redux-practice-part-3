@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 //applyMiddleware for thunk
 import { createStore, applyMiddleware } from 'redux';
-//Provider will wrapped around App component which will allow its children acces to the store, our global state
+//Provider will wrapped around App component which will allow its children access to the store, our global state
 import { Provider } from 'react-redux'
 import thunk from 'redux-thunk';
 //allow to use chrome dev tools
